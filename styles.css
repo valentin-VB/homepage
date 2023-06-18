@@ -277,3 +277,46 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+
+/* pet projects block */
+
+.projects__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.projects__list{
+    list-style: none;
+}
+
+ .projects__list >li:not(:last-child) {
+     margin-bottom: 20px;
+ }
+
+.project{
+    font-size: larger;
+    color: var(--text-decoration-color);
+}
+
+
+.project:hover{
+    color: tomato;
+}
+
+.project__description{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.project__technologies-title{
+    font-weight: bold;
+}
+
+.project__strong-line{
+    color: var(--text-decoration-color);
+    font-style: italic;
+}
