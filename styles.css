@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .fv {
@@ -183,11 +184,16 @@ body {
     margin-right: 50px;
 }
 
+.experiences__company{
+    margin-bottom: 20px;
+}
+
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
+
 
 .experiences__company-header-durability {
     color: var(--durability-text-color);
